@@ -30,7 +30,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
  
 local Window = Fluent:CreateWindow({
-    Title = "Void Hub 1.2 " .. Fluent.Version,
+    Title = "Void Hub 1.2 | GUI Version: " .. Fluent.Version .. " [PAID]",
     SubTitle = "Pack's Script.",
     TabWidth = 120,
     Size = UDim2.fromOffset(450, 300),
