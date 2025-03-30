@@ -30,8 +30,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
  
 local Window = Fluent:CreateWindow({
-    Title = "Main Page" .. Fluent.Version,
-    SubTitle = "Muscle Legends OP REB!",
+    Title = "Void Hub 1.2 " .. Fluent.Version,
+    SubTitle = "Pack's Script.",
     TabWidth = 120,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -131,7 +131,7 @@ Tabs.Settings:AddButton({
     
 Tabs.Main:AddButton({
         Title = "Speed Grind",
-        Description = " Super Speed (With Swifts)",
+        Description = " Super Speed [SWIFTS]",
         Callback = function()
             Window:Dialog({
                 Title = "Super Speed",
@@ -184,7 +184,7 @@ task.spawn(function()
         for y = 1, 10 do
             c.muscleEvent:FireServer("rep")
         end
-        task.wait(0.001) -- Super rápido
+        task.wait(0.1) -- Super rápido
     end
 end)
                     end
@@ -200,8 +200,8 @@ end)
         end
     })
  Tabs.Main:AddButton({
-        Title = "8 PACKS FAST REB",
-        Description = "230K+ A DAY",
+        Title = "Fast Rebirth [8 PACKS]",
+        Description = "200K+ Rebirths a day!",
         Callback = function()
             Window:Dialog({
                 Title = "8 PACKS FAST REB",
@@ -247,12 +247,12 @@ local a=game:GetService("ReplicatedStorage")local b=game:GetService("Players")lo
     })
 
  Tabs.Main:AddButton({
-        Title = "Protein Egg",
+        Title = "Auto Protein Egg",
         Description = "Auto Eat every last 15 secs",
         Callback = function()
             Window:Dialog({
                 Title = "Auto Protein Egg",
-                Content = "EGG",
+                Content = "Enable This?",
                 Buttons = {
                     {
                         Title = "Confirm",
@@ -353,7 +353,7 @@ SaveManager:BuildConfigSection(Tabs.Settings)
 Window:SelectTab(1)
  
 Fluent:Notify({
-    Title = "OP SCRIPT KYY",
+    Title = "VOID HUB LOADED",
     Content = "The script has been loaded.",
     Duration = 5
 })
